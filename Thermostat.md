@@ -1,6 +1,7 @@
 # Thermostat
 
-![Thermostat](Images/thermostat-1.png =200x200)
+![Thermostat](Images/thermostat-1.png =250x250)
+
 ![Example d'animation](Images/animation.gif)
 
 
