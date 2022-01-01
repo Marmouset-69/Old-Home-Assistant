@@ -64,4 +64,4 @@ climate:
     # used as the step size for setting the target temperature.
     # Default: 0.1 for Celsius and 1.0 for Fahrenheit.
     precision: 0.1
-    ```
+```
