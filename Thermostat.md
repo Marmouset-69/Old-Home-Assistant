@@ -2,7 +2,7 @@
 
 Dabs config.yaml
 
-````
+```
 # Thermostat generic- jmh 31/12/2021
 # https://www.home-assistant.io/integrations/generic_thermostat/
 climate:
