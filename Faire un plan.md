@@ -8,4 +8,5 @@
 
 ## Animation de badges
 https://forum.hacf.fr/t/animation-badges/3934
+
 ![Example d'animation](Images/animation.gif)
