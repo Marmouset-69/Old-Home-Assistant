@@ -2,9 +2,7 @@
 
 ![Thermostat](Images/thermostat-1.png =250x250)
 
-<img src="Images/thermostat-1.png" alt="Thermostat" width="200"/>
-<img src="Images/thermostat-2.png" alt="Thermostat" width="200"/>
-<img src="Images/thermostat-3.png" alt="Thermostat" width="200"/>
+<img src="Images/thermostat-1.png" alt="Thermostat" width="200"/> <img src="Images/thermostat-2.png" alt="Thermostat" width="200"/> <img src="Images/thermostat-3.png" alt="Thermostat" width="200"/>
 
 
 ## Dans config.yaml
