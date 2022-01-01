@@ -1,6 +1,10 @@
 # Thermostat
 
-Dabs config.yaml
+![](Images/thermostat-1.png)
+![](Images/thermostat-2.png)
+![](Images/thermostat-3.png)
+
+Dans config.yaml
 
 ```
 # Thermostat generic- jmh 31/12/2021
