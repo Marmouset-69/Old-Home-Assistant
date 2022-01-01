@@ -3,15 +3,11 @@
 ![Thermostat](Images/thermostat-1.png =250x250)
 
 <img src="Images/thermostat-1.png" alt="Thermostat" width="200"/>
+<img src="Images/thermostat-2.png" alt="Thermostat" width="200"/>
+<img src="Images/thermostat-3.png" alt="Thermostat" width="200"/>
 
-![Example d'animation](Images/animation.gif)
 
-
-![](Images/thermostat-2.png =200x)
-
-![](Images/thermostat-3.png =200x)
-
-Dans config.yaml
+## Dans config.yaml
 
 ```
 # Thermostat generic- jmh 31/12/2021
