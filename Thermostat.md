@@ -69,3 +69,8 @@ climate:
     # Default: 0.1 for Celsius and 1.0 for Fahrenheit.
     precision: 0.1
 ```
+
+## Schedule
+https://ledstripsandcode.blogspot.com/2018/11/simple-thermostat-scheduler-in-home.html
+
+https://gist.github.com/abmantis/34f1064fbe22c37bdbe79bc296c41a3a#file-ha_thermostat_scheduler-py
