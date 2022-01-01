@@ -1,8 +1,8 @@
 # Thermostat
 
-![](Images/thermostat-1.png)
-![](Images/thermostat-2.png)
-![](Images/thermostat-3.png)
+![](Images/thermostat-1.png =200)
+![](Images/thermostat-2.png =200)
+![](Images/thermostat-3.png =200)
 
 Dans config.yaml
 
