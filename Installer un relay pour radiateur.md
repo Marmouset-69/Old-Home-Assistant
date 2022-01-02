@@ -1,36 +1,38 @@
 # Installation relais radiateur électrique
 
 ## Modèle
-![Qubino](Images/relay_7494.JPG)
+<img src="Images/relay_7494.JPG" width="300">
+
 Sur le site de Qubino : https://qubino.com/products/flush-2-relays/
 
-![Qubino](Images/relay_7496.PNG)
-![Qubino](Images/relay_7497.PNG)
-![Qubino](Images/relay_7498.PNG)
-![Qubino](Images/relay_7499.PNG)
-![Qubino](Images/relay_7500.PNG)
-![Qubino](Images/relay_7501.PNG)
-![Qubino](Images/relay_7502.PNG)
+<img src="Images/relay_7496.PNG" width="300">
+<img src="Images/relay_7497.PNG" width="300">
+<img src="Images/relay_7498.PNG" width="300">
+<img src="Images/relay_7499.PNG" width="300">
+<img src="Images/relay_7500.PNG" width="300">
+<img src="Images/relay_7501.PNG" width="300">
+<img src="Images/relay_7502.PNG" width="300">
 
 ## Cablage
-Remplacer l'ampoule par le radiateur
-![cablage](Images/relay_7492.JPG)
-![cablage](Images/relay_7493.JPG)
+Remplacer l'ampoule par le radiateur !!!
+
+<img src="Images/relay_7492.JPG" width="300">
+<img src="Images/relay_7493.JPG" width="300">
 
 ## Config Home Assistant
 
-![Config HA](Images/relay_2022-01-02-16-54-16.png)
-![Config HA](Images/relay_HA_2022-01-02-16-59-09.png)
-![Config HA](Images/relay_HA_2022-01-02-16-59-18.png)
-![Config HA](Images/relay_HA_2022-01-02-17-05-40.png)
+<img src="Images/relay_2022-01-02-16-54-16.png" width="300">
+<img src="Images/relay_HA_2022-01-02-16-59-09.png" width="300">
+<img src="Images/relay_HA_2022-01-02-16-59-18.png" width="300">
+<img src="Images/relay_HA_2022-01-02-17-05-40.png" width="300">
 
 ## Renommer le relay
 
-![renommage](Images/relay_18-14-13.png)
-![renommage](Images/relay_18-14-28.png)
-![renommage](Images/relay_18-19-20.png)
-![renommage](Images/relay_18-19-47.png)
-![renommage](Images/relay_18-20-09.png)
+<img src="Images/relay_18-14-13.png" width="300">
+<img src="Images/relay_18-14-28.png" width="300">
+<img src="Images/relay_18-19-20.png" width="300">
+<img src="Images/relay_18-19-47.png" width="300">
+<img src="Images/relay_18-20-09.png" width="300">
 
 
 
