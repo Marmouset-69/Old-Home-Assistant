@@ -24,5 +24,13 @@ Remplacer l'ampoule par le radiateur
 ![Config HA](Images/relay_HA_2022-01-02-16-59-18.png)
 ![Config HA](Images/relay_HA_2022-01-02-17-05-40.png)
 
+## Renommer le relay
+
+![renommage](Images/relay_18-14-13.png)
+![renommage](Images/relay_18-14-28.png)
+![renommage](Images/relay_18-19-20.png)
+![renommage](Images/relay_18-19-47.png)
+![renommage](Images/relay_18-20-09.png)
+
 
 
