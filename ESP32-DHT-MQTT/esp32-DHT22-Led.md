@@ -36,6 +36,8 @@ const char* humidity_topic = "home/esp32_AZDelivery/humidity";
 const char* led_topic = "home/esp32_AZDelivery/output";
 const char* clientID = "test-C8:C9:A3:D2:BA:EC"; // MQTT client ID - I but the Mac adresse
 
+int Sleep_time = 60*1000; // 60s
+
 WiFiClient espClient;
 PubSubClient client(espClient);
 long lastMsg = 0;
@@ -90,9 +92,9 @@ void setup_wifi() {
 }
 
 void callback(char* topic, byte* message, unsigned int length) {
-  Serial.print("Message arrived on topic: ");
+  Serial.print("\nMessage arrived on topic: ");
   Serial.println(topic);
-  Serial.print(". Message: ");
+  Serial.print("Message is: ");
   String messageTemp;
   
   for (int i = 0; i < length; i++) {
@@ -144,7 +146,7 @@ void loop() {
   client.loop();
 
   long now = millis();
-  if (now - lastMsg > 5000) {
+  if (now - lastMsg > Sleep_time) {
     lastMsg = now;
 
     float t = dht.readTemperature();
@@ -181,7 +183,7 @@ void loop() {
       delay(10); // This delay ensures that client.publish doesn't clash with the client.connect call
       client.publish(humidity_topic, String(h).c_str());
     }
-  }
+  } 
 }
 ```
 
@@ -189,5 +191,39 @@ Terminal output
 
 <img src="Images/terminale-MQTT-led.png" width="800">
 
+Test with MQTT Explorer
 
+<img src="Images/MQTT_Explorer.png" width="800">
 
+<img src="Images/MQTT_Explorer_2.png" width="800">
+
+<img src="Images/terminal-output-messages.png" width="800">
+
+## Home Assistant
+
+configutation.yaml
+```
+sensor:
+  - platform: mqtt  
+    unique_id: "C8:C9:A3:D2:BA:EC_temp"
+    state_topic: "home/esp32_AZDelivery/temperature"  
+    name: "esp32_AZDelivery_MQTT_Temperature"  
+    unit_of_measurement: "°C"
+    value_template: "{{  value | round(1) }}"
+    icon: 'mdi:water-percent'
+  - platform: mqtt  
+    unique_id: "C8:C9:A3:D2:BA:EC_humi"
+    state_topic: "home/esp32_AZDelivery/humidity"  
+    name: "esp32_AZDelivery_MQTT_Humidity"  
+    unit_of_measurement: "%"
+    value_template: "{{  value | round(0) }}"
+    icon: 'mdi:thermometer'
+
+switch:
+  - platform: mqtt
+    name: "esp32_AZDelivery_MQTT_Led"
+    state_topic: "home/esp32_AZDelivery/output"
+    command_topic: "home/esp32_AZDelivery/output"
+    payload_on: "on"
+    payload_off: "off"
+```
