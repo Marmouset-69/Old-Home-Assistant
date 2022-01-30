@@ -7,4 +7,4 @@ See (FAQ)[../FAQ] if any problem
 
 ## Wire DHT22
 
-<img src="Images/IMG_8335.jpg" width="200">
+<img src="Images/ESP32-DHT22-LED.png" width="200">
