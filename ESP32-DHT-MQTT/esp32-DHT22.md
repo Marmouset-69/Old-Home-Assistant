@@ -137,14 +137,14 @@ void loop() {
 }
 ```
 Here is the output
-<img src="Images/output_MQTT.png" width="400">
+
+<img src="Images/output_MQTT.png" width="800">
 
 # MQTT Explorer
 For testing MQTT, use "MQTT Explorer" (Apple Store)
 
-<img src="Images/MQTT-explorer-1.png" width="400">
-
-<img src="Images/MQTT-explorer-2.png" width="400">
+<img src="Images/MQTT-explorer-1.png" width="500">
+<img src="Images/MQTT-explorer-2.png" width="500">
 
 # Home Assistant
 ## Configuration
@@ -166,9 +166,9 @@ sensor:
 ```
 ## Test result
 
-<img src="Images/HA-MQTT-1.png" width="300"><br>
-<img src="Images/HA-MQTT-2.png" width="100"><br>
-<img src="Images/HA-MQTT-3.png" width="300">
+<img src="Images/HA-MQTT-1.png" width="400"><br>
+<img src="Images/HA-MQTT-2.png" width="200"><br>
+<img src="Images/HA-MQTT-3.png" width="400">
 
 ## Add to Lovelace
 New entities appears into entities list
