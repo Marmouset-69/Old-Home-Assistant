@@ -7,12 +7,13 @@ See (FAQ)[../FAQ] if any problem
 
 ## Wire DHT22
 
-<img src="Images/IMG_8335.jpg" width="200">
-<img src="Images/ESP32-DHT22.png" width="200">
+<img src="Images/IMG_8335.jpg" width="200"><img src="Images/ESP32-DHT22.png" width="200">
 
 ## Code
 ### Test code to check pins
+
 Use "DHTtester.ino" example code given with DHT22 lib.
+
 <img src="Images/output_basic.png" width="400">
 
 
