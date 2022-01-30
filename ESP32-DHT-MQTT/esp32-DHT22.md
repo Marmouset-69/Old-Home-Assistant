@@ -165,9 +165,16 @@ sensor:
     value_template: "{{  value | round(0) }}"
 ```
 ## Test result
+Appareils et services :
 
-<img src="Images/HA-MQTT-1.png" width="400"><br>
+<img src="Images/HA-MQTT-1.png" width="400"><
+
+Mosiquitto
+
 <img src="Images/HA-MQTT-2.png" width="200"><br>
+
+MQTT settings
+
 <img src="Images/HA-MQTT-3.png" width="400">
 
 ## Add to Lovelace
