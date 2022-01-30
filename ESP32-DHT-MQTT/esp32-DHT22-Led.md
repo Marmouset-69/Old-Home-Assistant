@@ -227,3 +227,15 @@ switch:
     payload_on: "on"
     payload_off: "off"
 ```
+## Lovelace
+
+New entitie
+
+<img src="Images/new_entitie.png" width="400">
+
+Lovelace
+
+<img src="Images/lovelace.png" width="400">
+<br>
+<br>
+<img src="Images/lovelace_2.png" width="400">
