@@ -1,4 +1,4 @@
-# ESP-01S + DHT22
+# ESP-01S + DHT22 ( work! )
 ![ESP-01S](Images/ESP-01S.JPG)
 
 ## esphome code
@@ -40,3 +40,15 @@ sensor:
       name: "Humidite esp01-dht22-02"
     update_interval: 300s
 ```
+
+## Flash ESP
+### adaptateur de téléchargement USB vers ESP8266 Breakout ESP-01 ESP-01S
+
+![adaptater-USB](Images/adaptater-USB.png)
+
+### Home assistant
+To be sure to correctly flash ESP make a .bin file. Use "Manual download"
+![Manual download](Images/Manual-dowload.png)
+
+Use "ESPHome-Flasher" to flash the ESP
+![ESPHome logo](Images/ESPHome-logo.png)
